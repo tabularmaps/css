@@ -1,2 +1,3 @@
-# css
-CSS Grid によるカラム地図
+# @tabularmaps/css
+
+CSS Grid implementation of tabularmaps

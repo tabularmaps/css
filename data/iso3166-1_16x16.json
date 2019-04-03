@@ -1,0 +1,18 @@
+[
+  ["GL", "IS", "SJ", "NO", "SE", "AX", "FI", "EE", "BY", "RU", "GE", "UZ", "KG", "KZ", "MN", "KP"],
+  ["CA", "IE", "GG", "FO", "DK", "DE", "PL", "LV", "RO", "UA", "AM", "TM", "TJ", "CN", "TW", "KR"],
+  ["PM", "IM", null, "NL", "LI", "CZ", "SK", "LT", "BG", "MD", "TR", "AZ", "BT", "MO", "HK", "JP"],
+  ["US", "GB", "JE", "BE", "CH", "AT", "HU", "RS", "KW", "IQ", "IR", "NP", "MM", "LA", "VN", "PH"],
+  ["BM", "FR", "MC", "LU", null, "SI", "BA", "XK", "LB", "BH", "QA", "AF", "TH", "MY", "SG", "BN"],
+  ["MX", "PT", "AD", "VA", "SM", "HR", "AL", "MK", "PS", "SY", "SA", "AE", "PK", "BD", "KH", "ID"],
+  ["GT", "GI", "ES", "IT", "MT", "ME", "GR", "CY", "IL", "JO", "YE", "OM", "IN", "LK", "CC", "UM"],
+  ["SV", "BZ", "CU", "PR", "VI", "SX", "EH", "MA", "DZ", "TN", "LY", "SD", "EG", "CX", "TL", "TK"],
+  ["NI", "HN", "TC", "BS", "VG", "MS", "MR", "ML", "NE", "ER", "DJ", "SS", "SO", "GU", "MP", "WS"],
+  ["CR", null, "JM", "HT", "AG", "GP", "SH", "GN", "BF", "TG", "KE", "ET", "MV", "PW", "FM", "AS"],
+  ["PA", "KY", null, "DO", "KN", "DM", "CV", "SL", "GH", "BJ", "UG", "SC", "IO", "TV", "MH", "NU"],
+  ["MF", "AW", "CW", "AI", "BL", "MQ", "SN", "LR", "NG", "TD", "RW", "MU", "RE", "WF", "NR", "TO"],
+  ["CO", "VE", "BQ", "TT", null, "LC", "GM", "CI", "CM", "CF", "BI", "KM", "MG", "PG", "KI", "SB"],
+  ["EC", "BO", "BR", "GY", null, "BB", "GW", "GQ", "GA", "CD", "MW", "YT", "AU", "NF", "VU", "PF"],
+  ["PE", "PY", "UY", "SR", "VC", "GD", "VW", "ST", "CG", "AO", "ZM", "TZ", "HM", "NZ", "FJ", "CK"],
+  ["CL", "AR", "FK", "GF", "GS", "NA", "ZA", "LS", "SZ", "ZW", "MZ", "BV", "AQ", "TF", "NC", "PN"]
+]

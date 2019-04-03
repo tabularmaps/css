@@ -1,0 +1,20 @@
+{
+  "name": "@tabularmaps/css",
+  "version": "1.0.0",
+  "description": "CSS Grid implementation of tabularmaps",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node main.js data/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tabularmaps/css.git"
+  },
+  "author": "frogcat",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/tabularmaps/css/issues"
+  },
+  "homepage": "https://github.com/tabularmaps/css#readme"
+}
