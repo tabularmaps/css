@@ -13,7 +13,7 @@ for (let i = 2; i < process.argv.length; i++) {
         css.push(`.tabularmaps>div.${col} {grid-row-start: ${y+1};grid-column-start: ${x+1};}`);
     });
   });
-  fs.writeFileSync(`./dist/${name}.css`, css.join("\n"), "UTF-8");
+  fs.writeFileSync(`./docs/${name}.css`, css.join("\n"), "UTF-8");
 
   const names = [];
   board.forEach((row, y) => {
@@ -50,5 +50,5 @@ ${names.join("\n")}
 </body>
 </html>
 `;
-  fs.writeFileSync(`./dist/${name}.html`, html, "UTF-8");
+  fs.writeFileSync(`./docs/${name}.html`, html, "UTF-8");
 }
