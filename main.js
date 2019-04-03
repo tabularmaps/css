@@ -1,9 +1,20 @@
 const fs = require("fs");
 
+let markdown = `# @tabularmaps/css
+`;
+
 for (let i = 2; i < process.argv.length; i++) {
   const file = process.argv[i];
   const board = JSON.parse(fs.readFileSync(file, "UTF-8"));
   const name = file.split("/").pop().split(".").shift();
+
+  markdown+= `
+## ${name}
+
++ [Demo](${name}.html)
++ [CSS](${name}.css)
+
+`;
 
   const css = [];
   css.push(`.tabularmaps {display: grid;grid-template-columns: repeat(${board[0].length}, 1fr);}`);
@@ -52,3 +63,5 @@ ${names.join("\n")}
 `;
   fs.writeFileSync(`./docs/${name}.html`, html, "UTF-8");
 }
+
+  fs.writeFileSync(`./docs/README.md`, markdown, "UTF-8");
